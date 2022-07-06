@@ -15,4 +15,4 @@ mvn clean verify sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SON
    -Dsonar.security.sources.javasecurity.S3649=s3649JavaSqlInjectionConfig.json \
    -Dsonar.security.sanitizers.javasecurity.S3649=s3649JavaSqlInjectionConfig.json \
    -Dsonar.security.sinks.javasecurity.S3649=s3649JavaSqlInjectionConfig.json \
-   -Dsonar.branch.name=develop
+   -Dsonar.branch.name=feature/megan2
