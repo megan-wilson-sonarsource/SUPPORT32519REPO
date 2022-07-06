@@ -27,7 +27,6 @@ public class Insecure {
     File tempDir;
     tempDir = File.createTempFile("", ".");
     tempDir.delete();
-    // tempDir.mkdir();
     Files.exists(Paths.get("/tmp/", obj));
   }
 
