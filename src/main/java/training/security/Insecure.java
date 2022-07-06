@@ -71,7 +71,7 @@ public class Insecure {
     // Empty (fake) source
     // To be a real source this should normally return something from an input
     // that can be user manipulated e.g. an HTTP request, a cmd line parameter, a form input...
-    return "Hello World and " + name;
+    return "Hello World and my " + name;
   }
 
   public void storeData(String input) {
@@ -101,4 +101,5 @@ public class Insecure {
     processParam(myInput);
     storeData(myInput);                   // store data after sanitizing --> No injection vulnerability 
   }
+  // changed code to have stuff
 }
